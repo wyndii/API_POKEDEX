@@ -42,7 +42,7 @@ export const DrawerMenu = ( { navigation }: DrawerContentComponentProps ) => {
         <Text
           style={ style.userText }
         >
-          User Wyndii
+           Wyndii
         </Text>
         <View>
           <BtnMenu
@@ -93,7 +93,7 @@ const style = StyleSheet.create({
     borderColor: 'white',
     borderWidth: 5
   },
-  avatar: {
+    avatar: {
     height: 200,
     width: 200,
     borderRadius: 100,
@@ -109,7 +109,7 @@ const style = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 100
   },
-  userText: {
+    userText: {
     color: 'white',
     fontSize: 40,
     textAlign: 'center',
